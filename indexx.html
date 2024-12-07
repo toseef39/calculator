@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="containor">
+
+       <input type="text"  id="cal" >
+
+      <div class="row">
+        <button class="btn" onclick="calculateMe(event)">C</button>
+        <button class="btn" onclick="calculateMe(event)">%</button>
+        <button class="btn" onclick="calculateMe(event)">x</button>
+        <button class="btn" onclick="calculateMe(event)">/</button>
+      </div>
+      <div class="row" onclick="calculateMe">
+        <button class="btn" onclick="calculateMe(event)">7</button>
+        <button class="btn" onclick="calculateMe(event)">8</button>
+        <button class="btn" onclick="calculateMe(event)">9</button>
+        <button class="btn" onclick="calculateMe(event)">*</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="calculateMe(event)">4</button>
+        <button class="btn" onclick="calculateMe(event)">5</button>
+        <button class="btn" onclick="calculateMe(event)">6</button>
+        <button class="btn" onclick="calculateMe(event)">-</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="calculateMe(event)">1</button>
+        <button class="btn" onclick="calculateMe(event)">2</button>
+        <button class="btn" onclick="calculateMe(event)">3</button>
+        <button class="btn" onclick="calculateMe(event)">+</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="calculateMe(event)">00</button>
+        <button class="btn" onclick="calculateMe(event)">0</button>
+        <button class="btn" onclick="calculateMe(event)">.</button>
+        <button class="btn" onclick="calculateMe(event)">=</button>
+      </div>
+    </div>
+    <script src="cal.js"></script>
+  </body>
+</html>
